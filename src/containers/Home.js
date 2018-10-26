@@ -6,13 +6,6 @@ class Home extends Component {
     return (
       <div className="down-shifted">
         Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
-        Hello from the Home Component!<br />
       </div>
     )
   }
