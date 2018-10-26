@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.projectPage {
+  background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vw;
+  background-size: cover;
+  z-index: 0;
+}
+
+.homePage {
+  top: 100px;
+}
