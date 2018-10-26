@@ -12,7 +12,7 @@ class ProjectContainer extends Component{
           title: 'Wildcard',
           image: 'https://i.imgur.com/UPuHZZl.png',
           link: 'https://wildcard-sinatra.herokuapp.com/',
-          description: '',
+          description: 'A Ruby application that utilizes the Sinatra framework. This web application provides basic functions of a Warehouse Management System. Users can track clients, unique items on a per client basis, inventory levels per item and inbound and outbound transactions, and items on each transaction, for clients',
           technologies: 'Ruby, Sinatra, CSS, HTML',
           codeLink: 'https://github.com/GabrielValle91/sinatra-project',
           primaryTech: ['Sinatra']
@@ -48,9 +48,9 @@ class ProjectContainer extends Component{
       )
     })
     return(
-      <div className="projectPage">
-        <Container>
-          <Header as='h2' icon textAlign='center' color='teal'>
+      <div className="project-page">
+        <Container className="down-shifted">
+          <Header as='h2' icon textAlign='center' color='yellow'>
             <Icon name='code' circular />
             <Header.Content>Projects</Header.Content>
           </Header>

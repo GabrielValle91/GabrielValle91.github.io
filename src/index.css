@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.projectPage {
+.project-page {
   background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,6 +23,7 @@ code {
   z-index: 0;
 }
 
-.homePage {
-  top: 100px;
+.down-shifted {
+  margin: 50px;
 }
+
