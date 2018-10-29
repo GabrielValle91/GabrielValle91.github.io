@@ -14,6 +14,9 @@ class Navigation extends Component{
           <li>
             <Link to='/projects'>Projects</Link>
           </li>
+          <li>
+            <Link to='/blog'>Blog</Link>
+          </li>
         </ul>
       </div>
     )

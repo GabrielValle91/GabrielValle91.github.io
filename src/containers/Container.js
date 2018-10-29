@@ -2,6 +2,7 @@
 import React from 'react';
 import { Switch, Route, withRouter } from "react-router-dom";
 import ProjectContainer from './ProjectContainer';
+import BlogContainer from './BlogContainer';
 import Home from './Home';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import '../styling/transitions.css';
@@ -19,6 +20,7 @@ function Container({ location }) {
             <Switch location={location}>
               <Route path='/' exact component={Home} />
               <Route path='/projects' exact component={ProjectContainer} />
+              <Route path='/blog' exact component={BlogContainer} />
             </Switch>
           </section>
         </CSSTransition>

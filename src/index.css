@@ -23,6 +23,16 @@ code {
   z-index: 0;
 }
 
+.blog-page {
+  background: url(https://i.imgur.com/DzLXHgN.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vw;
+  background-size: cover;
+  z-index: 0;
+}
+
 .down-shifted {
   margin: 50px;
 }
