@@ -13,29 +13,29 @@ class Skills extends Component{
     }
   }
   render(){
-    const frontEndLanguages = this.state.FrontEnd.map(language => {
-      return (<Lister listItem={language} />)
+    const frontEndLanguages = this.state.FrontEnd.map((language, idx) => {
+      return (<Lister key={idx} listItem={language} />)
     })
-    const backEndLanguages = this.state.BackEnd.map(language => {
-      return (<Lister listItem={language} />)
+    const backEndLanguages = this.state.BackEnd.map((language, idx) => {
+      return (<Lister key={idx} listItem={language} />)
     })
-    const programmingTools = this.state.Tools.map(tool => {
-      return (<Lister listItem={tool} />)
+    const programmingTools = this.state.Tools.map((tool, idx) => {
+      return (<Lister key={idx} listItem={tool} />)
     })
-    const otherSkills = this.state.Other.map(skill => {
-      return (<Lister listItem={skill} />)
+    const otherSkills = this.state.Other.map((skill, idx) => {
+      return (<Lister key={idx} listItem={skill} />)
     })
     return(
       <div className="skill-section">
         <div className="centered column">
           <Divider section />
-          <h3>Front-end Languages</h3>
+          <h3>Front-end</h3>
           <Divider section />
           {frontEndLanguages}
         </div>
         <div className="centered column">
           <Divider section />
-          <h3>Back-end Languages</h3>
+          <h3>Back-end</h3>
           <Divider section />
           {backEndLanguages}
         </div>

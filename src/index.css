@@ -13,39 +13,92 @@ code {
     monospace;
 }
 
-.project-page {
-  background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  height: 65vw;
-  background-size: 100%;
-  z-index: 0;
+@media only screen and (max-width: 767px) {
+  .project-page {
+    background: rgb(0, 0, 0);
+    height: 100%;
+    background-size: 100vw;
+    z-index: 0;
+  }
+
+  .blog-page {
+    background: rgb(136, 2, 2);
+    height: 100%;
+    background-size: 100vw;
+    z-index: 0;
+  }
+
+  .home-page{
+    background: rgb(1, 0, 59);
+    height: 100%;
+    background-size: 100vw;
+    z-index: 0;
+  }
+
+  .skill-section{
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .down-shifted {
+    margin: 50px;
+  }
+
+  .centered{
+    text-align: center;
+  }
 }
 
-.blog-page {
-  background: url(https://i.imgur.com/DzLXHgN.jpg) no-repeat center center fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  height: 65vw;
-  background-size: 100%;
-  z-index: 0;
-}
+@media only screen and (min-width: 768px) {
+  .project-page {
+    background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    height: 65vw;
+    background-size: 100%;
+    z-index: 0;
+  }
 
-.home-page{
-  background: rgb(1, 0, 59);
-  height: 65vw;
-  background-size: 100%;
-  z-index: 0;
-}
+  .blog-page {
+    background: url(https://i.imgur.com/DzLXHgN.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    height: 65vw;
+    background-size: 100%;
+    z-index: 0;
+  }
 
-.skill-section{
-  width: 45%;
-  font-size: 1.2em;
-  color: white;
-  float: right;
-  margin-top: 50px;
+  .home-page{
+    background: rgb(1, 0, 59);
+    height: 65vw;
+    background-size: 100%;
+    z-index: 0;
+  }
+
+  .skill-section{
+    width: 45%;
+    font-size: 1.2em;
+    color: white;
+    float: right;
+    margin-top: 50px;
+  }
+
+  .column{
+    width: 25%;
+    float: left;
+  }
+
+  .down-shifted {
+    margin: 50px;
+  }
+
+  .centered{
+    text-align: center;
+  }
 }
 
 .blog-link a{
@@ -54,17 +107,4 @@ code {
 
 .blog-link a:hover{
   color: rgb(224, 255, 87);
-}
-
-.column{
-  width: 25%;
-  float: left;
-}
-
-.down-shifted {
-  margin: 50px;
-}
-
-.centered{
-  text-align: center;
 }

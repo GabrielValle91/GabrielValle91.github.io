@@ -1,11 +1,26 @@
-.profile-links{
-  color: white;
+@media only screen and (max-width: 767px) {
+  .profile-links{
+    color: white;
+  }
+
+  .profile-section{
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 50px;
+  }
 }
 
-.profile-section{
-  width: 35%;
-  font-size: 1.2em;
-  color: white;
-  float: left;
-  margin-top: 50px;
+@media only screen and (min-width: 768px) {
+  .profile-links{
+    color: white;
+  }
+
+  .profile-section{
+    width: 35%;
+    font-size: 1.2em;
+    color: white;
+    float: left;
+    margin-top: 50px;
+  }
 }
