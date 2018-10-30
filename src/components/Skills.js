@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Divider } from 'semantic-ui-react';
+import { Divider } from 'semantic-ui-react';
 import Lister from './Lister';
 
 class Skills extends Component{
