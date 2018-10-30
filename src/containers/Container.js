@@ -1,10 +1,10 @@
 // Container.js
 import React from 'react';
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 import ProjectContainer from './ProjectContainer';
 import BlogContainer from './BlogContainer';
 import Home from './Home';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 import '../styling/transitions.css';
 
 function Container({ location }) {

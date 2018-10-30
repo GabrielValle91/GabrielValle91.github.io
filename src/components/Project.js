@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Modal, Image } from 'semantic-ui-react';
+import { Card, Image, Modal } from 'semantic-ui-react';
 
 class Project extends Component{
   render(){

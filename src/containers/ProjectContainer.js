@@ -1,7 +1,7 @@
 // ProjectContainer.js
 import React, { Component } from 'react';
 import Project from '../components/Project';
-import { Card, Container, Header, Icon, Divider } from 'semantic-ui-react';
+import { Card, Container, Divider, Header, Icon } from 'semantic-ui-react';
 
 class ProjectContainer extends Component{
   constructor(){

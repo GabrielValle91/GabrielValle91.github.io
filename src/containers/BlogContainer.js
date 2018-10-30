@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Container, Header, Icon, Divider } from 'semantic-ui-react';
+import { Card, Container, Divider, Header, Icon } from 'semantic-ui-react';
 import BlogEntry from '../components/BlogEntry';
 
 class BlogContainer extends Component {
@@ -35,7 +35,7 @@ class BlogContainer extends Component {
   }
 
   getBlogEntries = () => {
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@GabrielValle_50233')
+    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@gabriel.Valle')
     .then(resp => resp.json())
     .then(resp => {
       this.populateDataArray(resp);
@@ -58,10 +58,13 @@ class BlogContainer extends Component {
     return(
       <div className="blog-page">
         <Container className="down-shifted">
-          <Header as='h2' icon textAlign='center' color='violet'>
-            <Icon name='file alternate' circular />
-            <Header.Content>Blog Articles</Header.Content>
+          <Header as='h2' icon textAlign='center' color='olive'>
+            <Icon name='medium' circular />
+            <Header.Content color="olive">Blog Articles</Header.Content>
           </Header>
+          <div className="blog-link">
+            <a href="https://medium.com/@Gabriel.Valle">Medium page</a>
+          </div>
           <Divider hidden section />
           <Card.Group>{blogEntries}</Card.Group>
         </Container>

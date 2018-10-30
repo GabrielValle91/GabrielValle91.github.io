@@ -15,25 +15,56 @@ code {
 
 .project-page {
   background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 100vw;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  height: 65vw;
+  background-size: 100%;
   z-index: 0;
 }
 
 .blog-page {
   background: url(https://i.imgur.com/DzLXHgN.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 100vw;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  height: 65vw;
+  background-size: 100%;
   z-index: 0;
+}
+
+.home-page{
+  background: rgb(1, 0, 59);
+  height: 65vw;
+  background-size: 100%;
+  z-index: 0;
+}
+
+.skill-section{
+  width: 45%;
+  font-size: 1.2em;
+  color: white;
+  float: right;
+  margin-top: 50px;
+}
+
+.blog-link a{
+  color: rgb(224, 255, 87);
+}
+
+.blog-link a:hover{
+  color: rgb(224, 255, 87);
+}
+
+.column{
+  width: 25%;
+  float: left;
 }
 
 .down-shifted {
   margin: 50px;
 }
 
+.centered{
+  text-align: center;
+}
