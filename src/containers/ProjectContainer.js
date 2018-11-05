@@ -21,7 +21,7 @@ class ProjectContainer extends Component{
           title: 'Speed',
           image: 'https://i.imgur.com/jLtCSya.jpg',
           link: 'https://speed-tms.herokuapp.com/',
-          description: 'A Ruby on Rails application that implements OAuth for user authentication. This web application provides basic functions of a Transportation Management System. Users can track clients, drivers, locations for pickup or delivery, and shipments. Users have the ability to assign items and drivers to shipments, providing a dispatch the ability to track work for their drivers. Javascript and JQuery were added to provide additional user functionality. Bootstrap framework provided the CSS for this project.',
+          description: 'A Ruby on Rails application that implements OAuth for user authentication. This web application provides basic functions of a Transportation Management System. Users can track clients, drivers, locations for pickup or delivery, and shipments. Users have the ability to assign items and drivers to shipments, providing a dispatcher the ability to track work for their drivers. Javascript and JQuery were added to provide additional user functionality. Bootstrap framework provided the CSS for this project.',
           technologies: 'Ruby, Rails, Javascript, JQuery, Bootstrap, OAuth',
           codeLink: 'https://github.com/GabrielValle91/rails-project',
           primaryTech: ['Rails', 'JQuery']
