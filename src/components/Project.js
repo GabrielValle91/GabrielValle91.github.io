@@ -17,7 +17,7 @@ class Project extends Component{
             <Modal.Description>
             <Image src={project.image} />
             <p>Description : {project.description}</p>
-            <p><a href={project.link}>Project Demo</a></p>
+            <p>{project.link ? <a href={project.link}>Project Demo</a> : 'Project Demo not available'}</p>
             <p>Technologies Used: {project.technologies}</p>
             <p><a href={project.codeLink}>Code</a></p>
             </Modal.Description>

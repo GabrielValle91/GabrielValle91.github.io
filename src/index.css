@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   .project-page {
     background: rgb(0, 0, 0);
     height: 100%;
@@ -51,7 +51,7 @@ code {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 991px) {
   .project-page {
     background: url(https://i.imgur.com/6dl147q.jpg) no-repeat center center fixed;
     -webkit-background-size: 100%;
