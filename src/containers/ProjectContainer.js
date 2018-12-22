@@ -9,13 +9,13 @@ class ProjectContainer extends Component{
     this.state={
       projects:[
         {
-          title: 'Wildcard',
-          image: 'https://i.imgur.com/UPuHZZl.png',
-          link: 'https://wildcard-sinatra.herokuapp.com/',
-          description: 'A Ruby application that utilizes the Sinatra framework. This web application provides basic functions of a Warehouse Management System. Users can track clients, unique items on a per client basis, inventory levels per item and inbound and outbound transactions, and items on each transaction, for clients. Custom CSS and HTML was used for page formatting.',
-          technologies: 'Ruby, Sinatra, CSS, HTML',
-          codeLink: 'https://github.com/GabrielValle91/sinatra-project',
-          primaryTech: ['Sinatra']
+          title: 'PAWS',
+          image: 'https://i.imgur.com/UMz13fkm.jpg',
+          link: 'https://young-beyond-21632.herokuapp.com/',
+          description: 'A React single page application that uses Redux for state management and React Router for navaigation. This web application allows a community to keep track of lost and found pets in an attempt to reunite them with their families. A Rails API is utilized for data storage and Devise provides user authentication.',
+          technologies: 'Ruby, Rails API, Devise, React, Redux, React Router, Semantic-UI',
+          codeLink: 'https://github.com/GabrielValle91/people-assisting-wandering-strays',
+          primaryTech: ['Rails API', 'React']
         },
         {
           title: 'Speed',
@@ -27,13 +27,13 @@ class ProjectContainer extends Component{
           primaryTech: ['Rails', 'JQuery']
         },
         {
-          title: 'PAWS',
-          image: 'https://i.imgur.com/UMz13fkm.jpg',
-          link: 'https://young-beyond-21632.herokuapp.com/',
-          description: 'A React single page application that uses Redux for state management and React Router for navaigation. This web application allows a community to keep track of lost and found pets in an attempt to reunite them with their families. A Rails API is utilized for data storage and Devise provides user authentication.',
-          technologies: 'Ruby, Rails API, Devise, React, Redux, React Router, Semantic-UI',
-          codeLink: 'https://github.com/GabrielValle91/people-assisting-wandering-strays',
-          primaryTech: ['Rails API', 'React']
+          title: 'Wildcard',
+          image: 'https://i.imgur.com/UPuHZZl.png',
+          link: 'https://wildcard-sinatra.herokuapp.com/',
+          description: 'A Ruby application that utilizes the Sinatra framework. This web application provides basic functions of a Warehouse Management System. Users can track clients, unique items on a per client basis, inventory levels per item and inbound and outbound transactions, and items on each transaction, for clients. Custom CSS and HTML was used for page formatting.',
+          technologies: 'Ruby, Sinatra, CSS, HTML',
+          codeLink: 'https://github.com/GabrielValle91/sinatra-project',
+          primaryTech: ['Sinatra']
         }
       ]
     }
