@@ -9,6 +9,15 @@ class ProjectContainer extends Component{
     this.state={
       projects:[
         {
+          title: 'List App',
+          image: 'https://i.imgur.com/MumfUNw.jpg',
+          link: '',
+          description: 'A React single page application that uses React Router for navaigation. This web application allows a user to keep track of various lists and list items for each list. List items can have varying quantity, and both lists and list items can be deleted or marked complete. A Rails API is utilized for data storage.',
+          technologies: 'Ruby, Rails API, React, React Router, Semantic-UI',
+          codeLink: 'https://github.com/GabrielValle91/list-app',
+          primaryTech: ['Rails API', 'React']
+        },
+        {
           title: 'PAWS',
           image: 'https://i.imgur.com/UMz13fkm.jpg',
           link: 'https://young-beyond-21632.herokuapp.com/',
