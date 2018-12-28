@@ -11,6 +11,7 @@ class ProjectContainer extends Component{
         {
           title: 'List App',
           image: 'https://i.imgur.com/MumfUNw.jpg',
+          link: 'https://glacial-atoll-89859.herokuapp.com/',
           description: 'A React single page application that uses React Router for navaigation. This web application allows a user to keep track of various lists and list items for each list. List items can have varying quantity, and both lists and list items can be deleted or marked complete. A Rails API is utilized for data storage.',
           technologies: 'Ruby, Rails API, React, React Router, Semantic-UI',
           codeLink: 'https://github.com/GabrielValle91/list-app',
