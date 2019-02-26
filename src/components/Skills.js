@@ -6,17 +6,13 @@ class Skills extends Component{
   constructor(){
     super();
     this.state={
-      FrontEnd: ['CSS3', 'HTML5', 'Javascript'],
-      BackEnd: ['Ruby', 'SQL'],
-      Tools: ['Bootstrap', 'Git', 'JQuery', 'React', 'Ruby on Rails', 'Semantic UI', 'Sinatra'],
+      Languages: ['C++', 'CSS3', 'HTML5', 'Javascript', 'Ruby', 'SQL'],
+      Tools: ['Bootstrap', 'Git', 'JQuery', 'React', 'Ruby on Rails', 'Semantic UI', 'Sinatra', 'Unreal Engine 4'],
       Other: ['Critical Thinking', 'Data Analysis' , 'Problem Solving']
     }
   }
   render(){
-    const frontEndLanguages = this.state.FrontEnd.map((language, idx) => {
-      return (<Lister key={idx} listItem={language} />)
-    })
-    const backEndLanguages = this.state.BackEnd.map((language, idx) => {
+    const languages = this.state.Languages.map((language, idx) => {
       return (<Lister key={idx} listItem={language} />)
     })
     const programmingTools = this.state.Tools.map((tool, idx) => {
@@ -29,15 +25,9 @@ class Skills extends Component{
       <div className="skill-section">
         <div className="centered column">
           <Divider section />
-          <h3>Front-end</h3>
+          <h3>Languages</h3>
           <Divider section />
-          {frontEndLanguages}
-        </div>
-        <div className="centered column">
-          <Divider section />
-          <h3>Back-end</h3>
-          <Divider section />
-          {backEndLanguages}
+          {languages}
         </div>
         <div className="centered column">
           <Divider section />

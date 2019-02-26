@@ -19,7 +19,7 @@ class Project extends Component{
             <p>Description : {project.description}</p>
             <p>{project.link ? <a href={project.link}>Project Demo</a> : 'Project Demo not available'}</p>
             <p>Technologies Used: {project.technologies}</p>
-            <p><a href={project.codeLink}>Code</a></p>
+            <p>{project.codeLink ? <a href={project.codeLink}>Code</a> : 'Project code not available'}</p>
             </Modal.Description>
           </Modal.Content>
         </Modal>

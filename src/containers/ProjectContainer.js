@@ -9,6 +9,14 @@ class ProjectContainer extends Component{
     this.state={
       projects:[
         {
+          title: 'Polarity',
+          image: 'https://i.imgur.com/6rpuqxW.jpg',
+          link: 'http://www.polarity3d.com',
+          description: 'A website created for a startup company that allows them to update their team members, faqs, and blog posts.',
+          technologies: 'JWT, Ruby, Rails API, React, React Router, Semantic-UI',
+          primaryTech: ['Rails API', 'React']
+        },
+        {
           title: 'List App',
           image: 'https://i.imgur.com/MumfUNw.jpg',
           link: 'https://glacial-atoll-89859.herokuapp.com/',
@@ -61,7 +69,7 @@ class ProjectContainer extends Component{
         <Container className="down-shifted">
           <Header as='h2' icon textAlign='center' color='yellow'>
             <Icon name='code' circular />
-            <Header.Content>Projects</Header.Content>
+            <Header.Content>Projects and Technical Work</Header.Content>
           </Header>
           <Divider hidden section />
           <Card.Group>{projectList}</Card.Group>
