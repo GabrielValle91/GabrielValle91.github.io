@@ -1,6 +1,6 @@
 // App.js
 import React, { Component } from 'react';
-import {BrowserRouter as Router } from 'react-router-dom';
+import {HashRouter as Router } from 'react-router-dom';
 import Navigation from './containers/Navigation';
 import Container from './containers/Container';
 
